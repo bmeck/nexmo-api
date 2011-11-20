@@ -2,6 +2,25 @@
 
 A simple API for Nexmo in Node.js
 
+## Example
+
+```javascript
+var client = require('nexmo-api').createClient({
+    key: '...',
+    secret: '...'
+  });
+
+client.getBalance(function printBalance(error, result) {
+  console.log('balance', result.value);
+});
+```
+
+## Installation
+
+```bash
+npm install nexmo-api
+```
+
 ## Contributors
 
 Bradley Meck
