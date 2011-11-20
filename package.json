@@ -1,0 +1,9 @@
+{
+  "name": "node-nexmo",
+  "version": "0.0.0",
+  "author": "bradleymeck",
+  "main": "./lib/nexmo.js",
+  "dependencies": {
+    "request": "0.5.1"
+  }
+}
