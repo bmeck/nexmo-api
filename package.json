@@ -1,5 +1,5 @@
 {
-  "name": "node-nexmo",
+  "name": "nexmo-api",
   "version": "0.0.0",
   "author": "bradleymeck",
   "main": "./lib/nexmo.js",

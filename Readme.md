@@ -1,4 +1,4 @@
-# node-nexmo
+# nexmo-api
 
 A simple API for Nexmo in Node.js
 
