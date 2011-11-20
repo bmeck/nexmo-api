@@ -1,9 +1,20 @@
 {
   "name": "nexmo-api",
-  "version": "0.0.0",
+  "description": "Nexmo api client and cli",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bmeck/nexmo-api"
+  },
+  "version": "0.1.1",
   "author": "bradleymeck",
   "main": "./lib/nexmo.js",
+  "bin": {
+    "nexmo": "./bin/nexmo"
+  },
   "dependencies": {
-    "request": "2.2.x"
+    "cliff": "0.1.x",
+    "flatiron": "0.1.x",
+    "request": "2.2.x",
+    "winston": "0.5.x"
   }
 }
